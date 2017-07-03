@@ -1,0 +1,51 @@
+body {
+  zoom: 1; }
+
+@font-face {
+  font-family: "Betty Noir";
+  src: url(/fonts/bettynoir.ttf) format("truetype"); }
+
+#root.container {
+  padding-right: 0;
+  padding-left: 0; }
+
+#root nav {
+  background: white;
+  width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  font-family: "Betty Noir", Verdana, Tahoma;
+  font-size: 24px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #root nav div {
+    float: left;
+    flex: 1; }
+  #root nav a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black; }
+  #root nav a:hover {
+    text-decoration: none; }
+  #root nav .links a {
+    text-decoration: none;
+    font-family: initial;
+    cursor: pointer;
+    color: black;
+    margin: 0 5px;
+    float: left; }
+  #root nav .links a:hover {
+    text-decoration: none; }
+  #root nav .logo {
+    text-align: center; }
+    #root nav .logo a {
+      float: initial; }
+
+#root main {
+  min-height: 100vh;
+  background: lightgrey; }
+
+#logo {
+  width: 100px; }

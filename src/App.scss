@@ -1,0 +1,104 @@
+body {
+  zoom: 1;
+}
+
+
+@font-face {
+  font-family: "Betty Noir";
+  src: url(/fonts/bettynoir.ttf) format("truetype");
+}
+
+#root {
+  &.container {
+    padding-right: 0; 
+    padding-left: 0;
+  }
+  
+  nav {
+    // background: #4f7b7e;
+    background: white;
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+    font-family: "Betty Noir", Verdana, Tahoma;
+    font-size: 24px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    div {
+      float:left;
+      flex: 1;
+    }
+    
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      color: black;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    
+    .links {
+      
+      a {
+        text-decoration: none;
+        font-family: initial;
+        cursor: pointer;
+        color: black;
+        margin: 0 5px;
+        float: left;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+    
+    .logo {
+      text-align: center;
+      
+      a {
+        float: initial;
+      }
+    }
+    
+    .links {
+      // display:flex;
+      // flex-direction: row;
+    }
+  }
+  
+  main {
+    min-height: 100vh;
+    background: lightgrey;
+  }
+}
+
+#logo{
+  width: 100px;
+}
+
+.mission {
+}
+
+.dancers {
+  
+}
+
+.sponsors {
+  
+}
+
+.donation {
+  
+}
+
+.upcoming {
+  
+}
+
+.volunteer {
+  
+}
