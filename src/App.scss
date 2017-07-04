@@ -19,7 +19,7 @@ body {
     background: white;
     width: 100%;
     margin: 0 auto;
-    height: 100px;
+    // height: 100px;
     font-family: "Betty Noir", Verdana, Tahoma;
     font-size: 24px;
     color: black;
@@ -75,32 +75,35 @@ body {
   main {
     min-height: 100vh;
     background: lightgrey;
+    
+  }
+  .dancers-list {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .dancer {
+      border: 1px solid red;
+      flex: 0 0 25%;
+      min-height: 200px;
+    }
   }
 }
 
-#logo{
+#logo {
   width: 100px;
 }
 
-.mission {
-}
-
-.dancers {
-  
-}
-
-.sponsors {
-  
-}
-
-.donation {
-  
-}
-
-.upcoming {
-  
-}
-
-.volunteer {
-  
-}
+/* Small Devices, Tablets */
+ @media only screen and (max-width : 767px) {   
+   #root {
+     
+     .dancers-list {
+       
+       .dancer {
+         border: 1px solid green;
+         flex: 0 0 50%;
+         min-height: 200px;
+       }
+     }
+   }
+ }

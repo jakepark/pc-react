@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (      
       <div id="root" className="container">
-        <nav>
+        <nav className="clearfix">
           <div>
             <a href="#" target="_blank">Project Connect Dancers</a>
           </div>
