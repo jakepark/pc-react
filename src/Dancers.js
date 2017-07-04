@@ -1,9 +1,24 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import Image from './Image'
 
 
 class Dancers extends Component {
+  constructor(props, context){
+    super(props, context);
+    this.createImage = this.createImage.bind(this);
+  }
+  
+  createImage(image) {
+    console.log('createImage')
+    return <Image source={image} key={image} />;
+  };
+  
+  createImages(images) {
+    return images.map(this.createImage);
+  };
+
+  
   render() {
     const DANCERS_ARRAY = [
       {name_first: "Alpha", name_last: "AbleLast", url: "url1", url_text:"url_text", img_url: "pic_1.jpeg"},
@@ -28,8 +43,10 @@ class Dancers extends Component {
         return (
           <div className="dancer" key={i}>
 
-          // <img src={require('./assets/pic_1.jpeg')}></img>
-          <img src={require(img_src)}></img>
+          <img src={require('./assets/pic_1.jpeg')}></img>
+          console.log({this})
+          {this.createImage(dancer.img_url)}
+          
           <div>{dancer.name_first} {dancer.name_last}</div>
           <a href="{dancer.url}">{dancer.url_text}</a>
           </div>
