@@ -7,14 +7,16 @@ class Dancers extends Component {
   constructor(props, context){
     super(props, context);
     this.createImage = this.createImage.bind(this);
+    this.createImages = this.createImages.bind(this);
   }
   
   createImage(image) {
-    console.log('createImage')
+    // console.log('createImage')
     return <Image source={image} key={image} />;
   };
   
   createImages(images) {
+    // console.log('createImages')
     return images.map(this.createImage);
   };
 
@@ -30,29 +32,24 @@ class Dancers extends Component {
       {name_first: "Golf", name_last: "GeorgeLast", url: "url5", url_text:"url_text", img_url: "pic_1.jpeg"},
       {name_first: "Hotel", name_last: "HowLast", url: "url5", url_text:"url_text", img_url: "pic_2.jpeg"},
     ];
-    
+        
     return (
       <div id="dancers" className="dancers-list">
       
       {DANCERS_ARRAY.map(function(dancer, i) {
-        
-        var dancer_img = dancer.img_url;
-        var img_src = "/assets/" + dancer_img;
-        console.log(img_src);
-        
         return (
           <div className="dancer" key={i}>
 
           <img src={require('./assets/pic_1.jpeg')}></img>
-          console.log({this})
           {this.createImage(dancer.img_url)}
-          
+              
           <div>{dancer.name_first} {dancer.name_last}</div>
           <a href="{dancer.url}">{dancer.url_text}</a>
           </div>
         )
-      })}
+      }, this)}
 
+            
       </div>
       
     );
