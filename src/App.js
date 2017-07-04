@@ -11,7 +11,7 @@ class App extends Component {
       <div id="root" className="container">
         <nav className="clearfix">
           <div>
-            <a href="#" target="_blank">Project Connect Dancers</a>
+            <a href="#" target="_blank">Project Connect</a>
           </div>
         
           <div className="logo">
@@ -19,18 +19,20 @@ class App extends Component {
           </div>
           
           <div className="links">
-            <a className="mission" href="./mission" target="_blank">
-              Mission
-            </a>
-            <a className="dancers" href="./dancers" target="_blank">
-              Dancers
-            </a>
-            <a className="sponsors" href="./sponsors" target="_blank">
-              Sponsors
-            </a>
-            <a className="contact" href="./contact" target="_blank">
-              Contact
-            </a>
+            <div className="pull-right">
+              <a className="mission" href="./mission" target="_blank">
+                Mission
+              </a>
+              <a className="dancers" href="./dancers" target="_blank">
+                Dancers
+              </a>
+              <a className="sponsors" href="./sponsors" target="_blank">
+                Sponsors
+              </a>
+              <a className="contact" href="./contact" target="_blank">
+                Contact
+              </a>
+            </div>
           </div>
         
         </nav>
