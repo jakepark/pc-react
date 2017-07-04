@@ -87,6 +87,7 @@ body {
       min-height: 200px;
       text-align: center;
       margin: 5px;
+      
     }
   }
 }
@@ -103,8 +104,12 @@ body {
        
        .dancer {
          border: 1px solid green;
-         flex: 0 0 50%;
+         flex: 0 0 45%;
          min-height: 200px;
+         
+         .dancer-portrait {
+           max-width: 100%;
+         }
        }
      }
    }

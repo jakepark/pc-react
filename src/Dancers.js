@@ -39,7 +39,7 @@ class Dancers extends Component {
       {DANCERS_ARRAY.map(function(dancer, i) {
         return (
           <div className="dancer" key={i}>
-            <img src={require('./assets/pic_1.jpeg')}></img>
+            <img className="dancer-portrait" src={require('./assets/pic_1.jpeg')}></img>
           
             <a href="{dancer.url}">
               {this.createImage(dancer.img_url)}
