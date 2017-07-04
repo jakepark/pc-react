@@ -11,11 +11,11 @@ class App extends Component {
       <div id="root" className="container">
         <nav className="clearfix">
           <div>
-            <a href="#" target="_blank">Project Connect</a>
+            <a href="#" >Project Connect</a>
           </div>
         
           <div className="logo">
-            <a href="#" target="_blank"><img id="logo" src={logo} alt=""></img></a>
+            <a href="#" ><img id="logo" src={logo} alt=""></img></a>
           </div>
           
           <div className="links">

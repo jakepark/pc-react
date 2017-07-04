@@ -23,14 +23,14 @@ class Dancers extends Component {
   
   render() {
     const DANCERS_ARRAY = [
-      {name_first: "Alpha", name_last: "AbleLast", url: "url1", url_text:"url_text1", img_url: "pic_1.jpeg"},
-      {name_first: "Bravo", name_last: "BakerLast", url: "url2", url_text:"url_text2", img_url: "pic_2.jpeg"},
-      {name_first: "Charlie", name_last: "CharlieLast", url: "url3", url_text:"url_text3", img_url: "pic_1.jpeg"},
-      {name_first: "Delta", name_last: "DogLast", url: "url4", url_text:"url_text4", img_url: "pic_1.jpeg"},
-      {name_first: "Echo", name_last: "EasyLast", url: "url5", url_text:"url_text5", img_url: "pic_2.jpeg"},
-      {name_first: "Foxtrot", name_last: "FoxLast", url: "url5", url_text:"url_text6", img_url: "pic_2.jpeg"},
-      {name_first: "Golf", name_last: "GeorgeLast", url: "url5", url_text:"url_text7", img_url: "pic_1.jpeg"},
-      {name_first: "Hotel", name_last: "HowLast", url: "url5", url_text:"url_text8", img_url: "pic_2.jpeg"},
+      {name_first: "Alpha", name_last: "AbleLast", url: "url_1", url_text:"url_text1", img_url: "pic_1.jpeg"},
+      {name_first: "Bravo", name_last: "BakerLast", url: "url_2", url_text:"url_text2", img_url: "pic_2.jpeg"},
+      {name_first: "Charlie", name_last: "CharlieLast", url: "url_3", url_text:"url_text3", img_url: "pic_1.jpeg"},
+      {name_first: "Delta", name_last: "DogLast", url: "url_4", url_text:"url_text4", img_url: "pic_1.jpeg"},
+      {name_first: "Echo", name_last: "EasyLast", url: "url_5", url_text:"url_text5", img_url: "pic_2.jpeg"},
+      {name_first: "Foxtrot", name_last: "FoxLast", url: "url_6", url_text:"url_text6", img_url: "pic_2.jpeg"},
+      {name_first: "Golf", name_last: "GeorgeLast", url: "url_7", url_text:"url_text7", img_url: "pic_1.jpeg"},
+      {name_first: "Hotel", name_last: "HowLast", url: "url_8", url_text:"url_text8", img_url: "pic_2.jpeg"},
     ];
         
     return (
