@@ -34,10 +34,11 @@ body {
     font-family: initial;
     cursor: pointer;
     color: black;
-    margin: 0 5px;
-    float: left; }
+    float: left;
+    padding: 5px; }
   #root nav .links a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    background: lightblue; }
   #root nav .logo {
     text-align: center; }
     #root nav .logo a {

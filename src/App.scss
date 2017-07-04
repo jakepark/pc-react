@@ -48,11 +48,13 @@ body {
         font-family: initial;
         cursor: pointer;
         color: black;
-        margin: 0 5px;
+        // margin: 0 5px;
         float: left;
+        padding: 5px;
       }
       a:hover {
         text-decoration: none;
+        background: lightblue;
       }
     }
     

@@ -3,6 +3,8 @@ import logo from './assets/dancers.svg';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+import Dancers from './Dancers';
+
 class App extends Component {
   render() {
     return (      
@@ -34,6 +36,7 @@ class App extends Component {
         </nav>
       
         <main className="content">
+          <Dancers/>
           
         </main>
       </div>
