@@ -53,8 +53,10 @@ body {
   justify-content: space-between; }
   #root .dancers-list .dancer {
     border: 1px solid red;
-    flex: 0 0 25%;
-    min-height: 200px; }
+    flex: 0 0 24%;
+    min-height: 200px;
+    text-align: center;
+    margin: 5px; }
 
 #logo {
   width: 100px; }
