@@ -16,7 +16,7 @@ body {
   
   nav {
     // background: #4f7b7e;
-    background: white;
+    background: #f8f8f8;
     width: 100%;
     margin: 0 auto;
     // height: 100px;
@@ -74,7 +74,7 @@ body {
   
   main {
     min-height: 100vh;
-    background: lightgrey;
+    background: white;
     
   }
   .dancers-list {
@@ -88,6 +88,9 @@ body {
       text-align: center;
       margin: 5px;
       
+      img {
+        max-width: 150px;
+      }
     }
   }
 }

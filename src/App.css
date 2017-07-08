@@ -10,7 +10,7 @@ body {
   padding-left: 0; }
 
 #root nav {
-  background: white;
+  background: #f8f8f8;
   width: 100%;
   margin: 0 auto;
   font-family: "Betty Noir", Verdana, Tahoma;
@@ -45,7 +45,7 @@ body {
 
 #root main {
   min-height: 100vh;
-  background: lightgrey; }
+  background: white; }
 
 #root .dancers-list {
   display: flex;
@@ -57,6 +57,8 @@ body {
     min-height: 200px;
     text-align: center;
     margin: 5px; }
+    #root .dancers-list .dancer img {
+      max-width: 150px; }
 
 #logo {
   width: 100px; }

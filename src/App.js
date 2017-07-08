@@ -18,7 +18,24 @@ class App extends Component {
             <a href="#" ><img id="logo" src={logo} alt=""></img></a>
           </div>
           
-          <div className="links">
+          <div className="links hidden-xs">
+            <div className="pull-right">
+              <a className="mission" href="#mission" >
+                Mission
+              </a>
+              <a className="dancers" href="#dancers" >
+                Dancers
+              </a>
+              <a className="sponsors" href="#sponsors" >
+                Sponsors
+              </a>
+              <a className="contact" href="#contact" >
+                Contact
+              </a>
+            </div>
+          </div>
+        
+          <div className="links visible-xs">
             <div className="pull-right">
               <a className="mission" href="#mission" >
                 Mission
