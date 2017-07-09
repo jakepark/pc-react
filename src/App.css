@@ -59,7 +59,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between; }
   #root .dancers-list .dancer {
-    border: 1px solid red;
+    border: 1px solid #cccccc;
     flex: 0 0 24%;
     min-height: 200px;
     text-align: center;
