@@ -34,7 +34,8 @@ body {
     cursor: pointer;
     color: black;
     float: left;
-    padding: 5px; }
+    padding: 5px;
+    font-size: 16px; }
   #root nav .links a:hover {
     text-decoration: none;
     background: lightblue; }
@@ -42,10 +43,16 @@ body {
     text-align: center; }
     #root nav .logo a {
       float: initial; }
+  #root nav .logo-main {
+    font-size: 36px; }
 
 #root main {
   min-height: 100vh;
   background: white; }
+  #root main h1 {
+    font-size: 24px; }
+  #root main h3 {
+    font-size: 18px; }
 
 #root .dancers-list {
   display: flex;
