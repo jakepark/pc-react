@@ -88,7 +88,7 @@ body {
   #root .dancers-list .dancer {
     border: 1px solid #cccccc;
     flex: 0 0 24%;
-    min-height: 200px;
+    min-height: 20px;
     text-align: center;
     margin: 5px; }
     #root .dancers-list .dancer img {
@@ -108,9 +108,9 @@ body {
     padding-right: 15px;
     padding-left: 15px; }
   #root .dancers-list .dancer {
-    border: 1px solid green;
+    border: 1px solid #cccccc;
     flex: 0 0 45%;
-    min-height: 200px; }
+    min-height: 20px; }
     #root .dancers-list .dancer .dancer-portrait {
       max-width: 100%; }
   .donate {
