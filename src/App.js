@@ -77,7 +77,6 @@ class App extends Component {
           <div id="mission"><h1>Mission Statement</h1>
             <p>Project Connect brings an interactive and participatory swing dance show to nursing homes and senior community centers in order to 1) bring people together across generations through swing dancing and music, and 2) bring joy to those who might have limited access to art and cultural activities. The show is one hour long and will be performed twice during the fiscal year, at nursing homes and senior community centers in Queens and Manhattan. With the permission of the facility, the show will be open to the public, including seniors’ friends and families.</p>
             <p>Project Connect ensures that its performance team consists of a diverse group of professional and volunteer dancers with different levels of skills, experiences and backgrounds. By working together towards a common goal, we hope that dancers will develop closer relationships with one another, and the process of preparing the show will nurture the culture of sharing, collaboration and inclusivity.</p>
-            <p>Please see the <a target="_blank" href="%PUBLIC_URL%/ProjectConnectEventPressRelease7.9.17.doc">Press Release</a></p>
           </div>
           <div id="performances"><h1>Performances</h1>
             <ul>
