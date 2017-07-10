@@ -1,13 +1,14 @@
 body {
   zoom: 1; }
 
-@font-face {
-  font-family: "Betty Noir";
-  src: url(/fonts/bettynoir.ttf) format("truetype"); }
+#root.container {
+  padding-right: 0;
+  padding-left: 0; }
+
+#root .background-color {
+  background: #f8f8f8; }
 
 #root nav {
-  background: #f8f8f8;
-  width: 100%;
   margin: 0 auto;
   font-family: "Betty Noir", Verdana, Tahoma;
   font-size: 24px;
@@ -73,6 +74,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%; }
+  #root main #performances li {
+    border: 1px solid #cccccc; }
+  #root main #contact {
+    text-align: center; }
+    #root main #contact h1, #root main #contact p {
+      text-align: left; }
 
 #root .dancers-list {
   display: flex;
@@ -97,6 +104,9 @@ body {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
+  #root.container {
+    padding-right: 15px;
+    padding-left: 15px; }
   #root .dancers-list .dancer {
     border: 1px solid green;
     flex: 0 0 45%;
