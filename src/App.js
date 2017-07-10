@@ -32,8 +32,8 @@ class App extends Component {
               <a className="sponsors" href="#sponsors" >
                 Sponsors
               </a>
-              <a className="contact" href="#contact" >
-                Contact
+              <a className="about" href="#about" >
+                About
               </a>
             </div>
           </div>
@@ -52,8 +52,8 @@ class App extends Component {
               <a className="sponsors" href="#sponsors" >
                 Sponsors
               </a>
-              <a className="contact" href="#contact" >
-                Contact
+              <a className="about" href="#about" >
+                About
               </a>
             </div>
           </div>
@@ -86,6 +86,11 @@ class App extends Component {
             </p>
             October (TBA)
 
+            <h3>Past Performances</h3>
+            
+            <p>
+              
+            </p>
 
             
           <h1 id="dancers">Dancers</h1>
@@ -95,11 +100,21 @@ class App extends Component {
           
           <p>Project Connect is made possible by the Queens Council on the Arts with public funds from the New York City Department of Cultural Affairs in partnership with the City Council.</p>
           
-          Additional thanks goes to You Should Be Dancing..! as a sponsor.<br></br>
+          <ul>Additional thanks goes to:</ul>
+          <li>
+            <a href="http://youshouldbedancing.nyc/">You Should Be Dancing..!</a>
+          </li>
+          <li>
+            Model J Vintage
+          </li>
           
-          <a href="http://youshouldbedancing.nyc/">You Should Be Dancing..!</a>
+          <h1 id="about">About</h1>
+            <h3>Founder</h3>
+            <p>
+              Akemi Kinukawa is a professional Lindy Hop/Swing dance instructor, choreography, and performer. Ms. Kinukawa has taught and performed at various New York events, including Midsummer Night Swing and Jazz at Lincoln Center. As a teaching artist, she is passionate about sharing the joy of partner dancing with students from diverse backgrounds. She currently teaches social dancing to elementary and high school students in New York City public schools as well as after-school programs. Ms. Kinukawa also teaches at universities, ESL and senior citizens’ centers, as well as at major dance studios including; You Should Be Dancing Studios, Sandra Cameron Dance Center, and Brooklyn Swings. Ms. Kinukawa is the founder of Swing Dance Astoria, an organization dedicated to creating a friendly, diverse swing dance community in Astoria/LIC and other parts of Queens.
+            </p>
           
-          <h1 id="contact">Contact</h1>
+            <h3 id="contact">Contact</h3>
             Please email contact at contact.com<br></br>
             
             <p>Project Connect is always looking for new volunteers with diverse backgrounds and experiences.  Whether you are a new or experienced dancer, or a person with skills that can improve the project,  please fill out the Volunteer Survey Form and let us know about you.</p><br></br>
