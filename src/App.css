@@ -66,6 +66,9 @@ body {
 #logo {
   width: 100px; }
 
+.donate {
+  display: inline-block; }
+
 /* Small Devices, Tablets */
 @media only screen and (max-width: 767px) {
   #root .dancers-list .dancer {
@@ -73,4 +76,12 @@ body {
     flex: 0 0 45%;
     min-height: 200px; }
     #root .dancers-list .dancer .dancer-portrait {
-      max-width: 100%; } }
+      max-width: 100%; }
+  .donate {
+    display: block;
+    text-align: center; } }
+
+#donate-form {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle; }

@@ -32,8 +32,14 @@ class App extends Component {
               <a className="sponsors" href="#sponsors" >
                 Sponsors
               </a>
-              <a className="about" href="#about" >
-                About
+              <a className="founder" href="#founder" >
+                Founder
+              </a>
+              <a className="contact" href="#contact" >
+                Contact
+              </a>
+              <a className="donate" href="#donate" >
+                Donate
               </a>
             </div>
           </div>
@@ -52,8 +58,14 @@ class App extends Component {
               <a className="sponsors" href="#sponsors" >
                 Sponsors
               </a>
-              <a className="about" href="#about" >
-                About
+              <a className="founder" href="#founder" >
+                Founder
+              </a>
+              <a className="contact" href="#contact" >
+                Contact
+              </a>
+              <a className="donate" href="#donate" >
+                Donate
               </a>
             </div>
           </div>
@@ -108,20 +120,31 @@ class App extends Component {
             Model J Vintage
           </li>
           
-          <h1 id="about">About</h1>
-            <h3>Founder</h3>
+          <h1 id="founder">Founder</h1>
             <p>
               Akemi Kinukawa is a professional Lindy Hop/Swing dance instructor, choreography, and performer. Ms. Kinukawa has taught and performed at various New York events, including Midsummer Night Swing and Jazz at Lincoln Center. As a teaching artist, she is passionate about sharing the joy of partner dancing with students from diverse backgrounds. She currently teaches social dancing to elementary and high school students in New York City public schools as well as after-school programs. Ms. Kinukawa also teaches at universities, ESL and senior citizens’ centers, as well as at major dance studios including; You Should Be Dancing Studios, Sandra Cameron Dance Center, and Brooklyn Swings. Ms. Kinukawa is the founder of Swing Dance Astoria, an organization dedicated to creating a friendly, diverse swing dance community in Astoria/LIC and other parts of Queens.
             </p>
           
-            <h3 id="contact">Contact</h3>
+          <h1 id="contact">Contact</h1>
             Please email contact at contact.com<br></br>
             
             <p>Project Connect is always looking for new volunteers with diverse backgrounds and experiences.  Whether you are a new or experienced dancer, or a person with skills that can improve the project,  please fill out the Volunteer Survey Form and let us know about you.</p><br></br>
             
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLOy0cQ52jtyZE0qnh3MsYjUyWqlpGONHVBgkMVVeHe6wFRg/viewform?usp=sf_link">Volunteer Info Link</a>
           
+          <h1 id="donate">Donate</h1>
+          Click here to donate $25 to Project Connect Dancers!
           
+          <div className="donate">
+            <form id="donate-form" name="_xclick" action="https://www.paypal.com/fk/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_xclick"></input>
+              <input type="hidden" name="business" value="danceprojectconnect@gmail.com"></input>
+              <input type="hidden" name="item_name" value="Project Connect Dancers"></input>
+              <input type="hidden" name="currency_code" value="USD"></input>
+              <input type="hidden" name="amount" value="25.00"></input>
+              <input type="image" src="http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"></input>
+            </form>
+          </div>
         </main>
       </div>
       

@@ -107,6 +107,10 @@ body {
   width: 100px;
 }
 
+.donate {
+ display:inline-block;
+}
+
 /* Small Devices, Tablets */
  @media only screen and (max-width : 767px) {   
    #root {
@@ -124,4 +128,17 @@ body {
        }
      }
    }
+   
+   .donate {
+     display:block;
+     text-align: center;
+   }
+ }
+ 
+
+ 
+ #donate-form {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
  }
