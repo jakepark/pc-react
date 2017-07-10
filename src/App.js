@@ -82,7 +82,7 @@ class App extends Component {
 
           
           <h1 id="performances">Performances</h1>
-            <h3>Show Dates</h3>
+            <h3>Upcoming Show Dates:</h3>
 
             <p>
             July 23rd at 2:30pm<br></br>
@@ -96,12 +96,16 @@ class App extends Component {
             <a target="_blank" href="http://www.dorotusa.org">DOROT</a><br></br>
             171 West 85th Street, New York, NY 10024 <br></br>
             </p>
-            October (TBA)
+            <p>
+              October (TBA)
+            </p>
 
-            <h3>Past Performances</h3>
+            <h3>Past Performances:</h3>
             
             <p>
-              
+              June 27th at 6:30pm<br></br>
+              Midsummer Night Swing at Lincoln Center<br></br>
+              Excerpt<br></br>
             </p>
 
             
@@ -117,7 +121,7 @@ class App extends Component {
             <a href="http://youshouldbedancing.nyc/">You Should Be Dancing..!</a>
           </li>
           <li>
-            Model J Vintage
+            <a href="https://www.facebook.com/modeljvintage/">Model J Vintage</a>
           </li>
           
           <h1 id="founder">Founder</h1>
@@ -126,14 +130,14 @@ class App extends Component {
             </p>
           
           <h1 id="contact">Contact</h1>
-            Please email contact at contact.com<br></br>
+            <p>Please email us at <a href="mailto:danceprojectconnect@gmail.com">danceprojectconnect@gmail.com</a></p>
             
             <p>Project Connect is always looking for new volunteers with diverse backgrounds and experiences.  Whether you are a new or experienced dancer, or a person with skills that can improve the project,  please fill out the Volunteer Survey Form and let us know about you.</p><br></br>
             
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLOy0cQ52jtyZE0qnh3MsYjUyWqlpGONHVBgkMVVeHe6wFRg/viewform?usp=sf_link">Volunteer Info Link</a>
           
           <h1 id="donate">Donate</h1>
-          Click here to donate $25 to Project Connect Dancers!
+          <span>Click here to donate $25 to Project Connect Dancers!</span>
           
           <div className="donate">
             <form id="donate-form" name="_xclick" action="https://www.paypal.com/fk/cgi-bin/webscr" method="post">

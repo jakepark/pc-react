@@ -46,9 +46,18 @@ body {
   min-height: 100vh;
   background: white; }
   #root main h1 {
-    font-size: 24px; }
+    font-size: 24px;
+    text-decoration: underline; }
   #root main h3 {
     font-size: 18px; }
+  #root main ul, #root main li {
+    list-style: none; }
+  #root main ul {
+    padding: 0; }
+  #root main li {
+    padding: 5px 10px; }
+  #root main p, #root main span {
+    padding: 5px 10px; }
 
 #root .dancers-list {
   display: flex;
