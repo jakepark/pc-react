@@ -183,7 +183,7 @@ class Dancers extends Component {
      role: "Dancer/ Management Consultant",
      bio: 
       "Sharon Chin hails from Queens and learned to swing dance with the Columbia University swing dance club. Sharon is primarily a social dancer- engaged in swing, salsa, and tango. Sharon has performed choreography under the direction of Laura Jeffers, Paolo  Lanna,  and Steven Plummer. Sharon is also a modern dance enthusiast and has studied Graham technique. Professionally she is a management consultant with PwC and a board member of the Global Language Project. She is excited to connect across generations through dance under Project Connect. "},
-    {name_first: "Steffanie",
+    {name_first: "Stephanie",
      name_last: "Shapiro",
      web_url: "dancewellny.com",
      photo_url: null,
